@@ -168,7 +168,7 @@ header h2 {
     transition-delay: 0.9s;
   }
 
-  #h2-2 {
+#h2-2 {
     transition-delay: 1.2s;
   }
 
@@ -184,6 +184,7 @@ header h2 {
 .about {
     margin: 400px 0 250px;
     color: #000000;
+    text-align: center;
 }
 
 .img1 {
@@ -203,7 +204,8 @@ header h2 {
     line-height: calc(7px+4.5vw);
     font-size: calc(1rem+1vw);
     letter-spacing: 1px;
-    color:#000000
+    color:#000000;
+    justify-content: center;
 }
 
 .skills {
