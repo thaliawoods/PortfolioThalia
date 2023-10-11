@@ -187,6 +187,11 @@ header h2 {
     text-align: center;
 }
 
+.about h2 {
+  color: #000000;
+  text-align: center;
+}
+
 .img1 {
     background: url(../image/TestAbout.png) top/cover;
 }
@@ -194,6 +199,8 @@ header h2 {
 .h2-wrapper {
     mix-blend-mode: exclusion;
     margin: -220px 0 200px;
+    color: #000000;
+    text-align: center;
 }
 
 .about p {
@@ -256,14 +263,13 @@ header h2 {
     height: 110%;
     width: 100%;
     top: -3px;
-    background: #000000;/*?????*/
     transition: width 1s ease-out;
     transition-delay: 0.85s;
   }
 
-  .project.is-inview::before {
-    width: 0;
-  }
+.project.is-inview::before {
+  width: 0;
+}
 
 #p2 {
     margin: 0 6vw 0 auto;
@@ -271,6 +277,10 @@ header h2 {
 
 #p3 { 
     margin-left: 8vw;
+}
+
+#p4 {
+  margin: 0 6vw 0 auto;
 }
 
 .project img {
